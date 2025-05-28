@@ -1,61 +1,10 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background: url("nvbg.JPG") no-repeat center center fixed;
-    background-size: cover;
-    color: #fff;
-}
-
-/* Header and Footer */
-header, footer {
-    background: rgba(0, 0, 0, 0.6);
-    padding: 1em;
-    text-align: center;
-    border-radius: 10px;
-    margin: 1em;
-}
-
-/* Main Gallery Section */
-.gallery {
-    padding: 2em;
-    display: flex;
-    justify-content: center;
-}
-
-/* Product Grid */
-.product-grid {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
-}
-
-/* Individual Product Card */
-.product {
-    background: rgba(255, 255, 255, 0.1);
-    padding: 1em;
-    border-radius: 10px;
-    max-width: 300px;
-    text-align: center;
-    backdrop-filter: blur(5px);
-}
-
-/* Product Images */
-.product img {
-    width: 100%;
-    border-radius: 8px;
-}
-
-/* ========================== */
-/* Responsive Design for Phones */
-/* ========================== */
 @media (max-width: 600px) {
     body {
-        background-attachment: scroll;
-        background-size: contain;
-        background-position: top center;
+        background-image: url("nvbg.JPG");
         background-repeat: no-repeat;
+        background-position: center top;
+        background-attachment: scroll;
+        background-size: 100% auto; /* Shrink width to fit screen, keep full height ratio */
         background-color: black;
     }
 
