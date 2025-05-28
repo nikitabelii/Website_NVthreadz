@@ -53,6 +53,30 @@ header, footer {
     border-radius: 8px;
 }
 
+/* Instagram Follow Message */
+.follow-message {
+    text-align: center;
+    margin: 2em 1em;
+    padding: 1em;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+}
+
+.follow-button {
+    display: inline-block;
+    padding: 0.8em 1.5em;
+    background: #e1306c; /* Instagram color */
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 30px;
+    transition: background 0.3s;
+}
+
+.follow-button:hover {
+    background: #c1275b;
+}
+
 /* ========================== */
 /* Responsive Design for Phones */
 /* ========================== */
@@ -88,14 +112,9 @@ header, footer {
     .product img {
         max-width: 180px;
     }
-}
 
-.follow-message {
-    text-align: center;
-    margin: 2em 1em;
-    padding: 1em;
-    background: rgba(0, 0, 0, 0.6);
-    color: #fff;
-    border-radius: 10px;
-    font-size: 1rem;
+    .follow-button {
+        font-size: 0.9rem;
+        padding: 0.6em 1.2em;
+    }
 }
