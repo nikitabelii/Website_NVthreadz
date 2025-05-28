@@ -1,6 +1,6 @@
 /* Global Styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Urbanist', sans-serif;
     margin: 0;
     padding: 0;
     background: url("nvbg.png") no-repeat center center fixed;
@@ -53,6 +53,14 @@ header, footer {
     border-radius: 8px;
 }
 
+/* Price Styling */
+.price {
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-top: 0.5em;
+    color: #fff;
+}
+
 /* Instagram Follow Message */
 .follow-message {
     text-align: center;
@@ -84,7 +92,7 @@ header, footer {
 @media (max-width: 600px) {
     body {
         background: url("nvbg.png") no-repeat center center scroll;
-        background-size: 80% auto; /* 20% smaller than 100% width */
+        background-size: 80% auto;
         background-color: black;
     }
 
