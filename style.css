@@ -1,3 +1,4 @@
+/* Global Styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -7,7 +8,7 @@ body {
     color: #fff;
 }
 
-/* Transparent background boxes for readability */
+/* Header and Footer Styling */
 header, footer {
     background: rgba(0, 0, 0, 0.6);
     padding: 1em;
@@ -17,14 +18,14 @@ header, footer {
     z-index: 1;
 }
 
-/* Main Gallery Section */
+/* Product Gallery Section */
 .gallery {
     padding: 2em;
     display: flex;
     justify-content: center;
 }
 
-/* Product Grid */
+/* Grid for Products */
 .product-grid {
     display: flex;
     flex-wrap: wrap;
@@ -32,7 +33,7 @@ header, footer {
     justify-content: center;
 }
 
-/* Individual Product Card */
+/* Individual Product Cards */
 .product {
     background: rgba(255, 255, 255, 0.1);
     padding: 1em;
@@ -42,14 +43,13 @@ header, footer {
     backdrop-filter: blur(5px);
 }
 
+/* Product Images */
 .product img {
     width: 100%;
     border-radius: 8px;
 }
 
-/* ========================== */
-/* Responsive Design for Phones */
-/* ========================== */
+/* Responsive Design for Mobile Devices */
 @media (max-width: 600px) {
     body {
         background: url("nvbg.png") no-repeat center center scroll;
