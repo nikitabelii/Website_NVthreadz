@@ -60,12 +60,13 @@ header, footer {
     padding: 1em;
     background: rgba(0, 0, 0, 0.6);
     border-radius: 10px;
+    color: white;
 }
 
 .follow-button {
     display: inline-block;
     padding: 0.8em 1.5em;
-    background: #e1306c; /* Instagram color */
+    background: #e1306c;
     color: white;
     text-decoration: none;
     font-weight: bold;
@@ -83,7 +84,7 @@ header, footer {
 @media (max-width: 600px) {
     body {
         background: url("nvbg.png") no-repeat center center scroll;
-        background-size: cover;
+        background-size: 80% auto; /* 20% smaller than 100% width */
         background-color: black;
     }
 
