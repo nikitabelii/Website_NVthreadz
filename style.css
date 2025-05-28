@@ -92,7 +92,7 @@ header, footer {
 @media (max-width: 600px) {
     body {
         background: url("nvbg.png") no-repeat center center scroll;
-        background-size: 80% auto;
+        background-size: 90% auto;
         background-color: black;
     }
 
